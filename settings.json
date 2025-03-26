@@ -1,0 +1,138 @@
+{
+  "workbench.iconTheme": "Monokai Pro Icons",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+"workbench.colorCustomizations": {
+    "[Catppuccin Mocha]": {
+      "editor.background": "#1b1f20",
+      "sideBar.background": "#1b1f20",
+      "activityBar.background": "#1b1f20",
+      "panel.background": "#1b1f20",
+      "statusBar.background": "#1b1f20",
+      "terminal.background": "#1b1f20",
+      "titleBar.activeBackground": "#1b1f20",
+      "editorGroup.emptyBackground": "#1b1f20",
+      "titleBar.inactiveBackground": "#1b1f20",
+      "tab.activeBackground": "#1b1f20",
+      "tab.inactiveBackground": "#1b1f20",
+      "editorGroupHeader.tabsBackground": "#1b1f20",
+      // "list.activeSelectionBackground": "#1b1f20",
+      "list.inactiveSelectionBackground": "#1b1f20",
+      "editorGutter.background": "#1b1f20",
+      // File explorer
+      "sideBarSectionHeader.background": "#1b1f20",
+      // Quick input (Ctrl+P menu)
+      "inputOption.activeBackground": "#1b1f20",
+      "quickInput.background": "#1b1f20",
+      "scrollbarSlider.hoverBackground": "#1b1f20",
+      // Breadcrumbs
+      "breadcrumb.background": "#1b1f20",
+      "breadcrumbPicker.background": "#1b1f20",
+      "toolbar.activeBackground": "#1b1f20"
+    },
+  },
+  "editor.minimap.enabled": false,
+  "csharpextensions.privateMemberPrefix": "_",
+  "csharpextensions.useThisForCtorAssignments": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:\"/Users/arturofiliovilla/.vscode/extensions/gabrielbb.vscode-lombok-1.0.1/server/lombok.jar\"",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "go.toolsManagement.autoUpdate": true,
+  "gopls": {
+    "experimentalWorkspaceModule": true
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "dart.previewFlutterUiGuides": true,
+  "scm.inputFontSize": 12,
+  "markdown.preview.fontSize": 12,
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "editor.lineNumbers": "relative",
+  "vim.leader": "<Space>",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    // { "before": ["<S-h>"], "commands": [":bprevious"] },
+    // { "before": ["<S-l>"], "commands": [":bnext"] },
+
+    // splits
+    { "before": ["leader", "v"], "commands": [":vsplit"] },
+    { "before": ["leader", "s"], "commands": [":split"] },
+
+    {
+      "before": ["C-h"],
+      "commands": ["workbench.action.focusLeftGroup"]
+    },
+    {
+      "before": ["C-j"],
+      "commands": ["workbench.action.focusBelowGroup"]
+    },
+    {
+      "before": ["C-k"],
+      "commands": ["workbench.action.focusAboveGroup"]
+    },
+    {
+      "before": ["C-l"],
+      "commands": ["workbench.action.focusRightGroup"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    }
+  ],
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.easymotion": true,
+  "vim.useSystemClipboard": true,
+  "dotnet.codeLens.enableReferencesCodeLens": false,
+  "editor.fontSize": 11,
+  "editor.fontStyle": "normal",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "keyword",
+          "storage",
+          "string",
+          "variable",
+          "constant"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  "catppuccin.italicComments": false,
+  "catppuccin.italicKeywords": false,
+  "prettier.useEditorConfig": false,
+  "prettier.quoteProps": "consistent",
+  "javascript.preferences.quoteStyle": "single",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.fontSize": 11,
+  "editor.guides.indentation": false,
+  "editor.bracketPairColorization.enabled": false,
+}

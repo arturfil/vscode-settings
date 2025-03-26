@@ -1,5 +1,4 @@
 {
-  "workbench.iconTheme": "Monokai Pro Icons",
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
